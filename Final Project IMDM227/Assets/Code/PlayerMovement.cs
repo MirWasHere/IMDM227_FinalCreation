@@ -3,19 +3,26 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField]
+    public Rigidbody rb;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        
         Debug.Log("Movement!");
     }
 
     // Update is called once per frame
     void Update()
     {
+        rb.constraints = RigidbodyConstraints.FreezeRotationX;
+        rb.constraints = RigidbodyConstraints.FreezeRotationY;
         // For turns
         float rate = 0;
         // For motion
         float speed = 0;
+        // For jumps
+        float power = 5;
 
         if(Keyboard.current.leftArrowKey.isPressed)
         {
@@ -37,6 +44,10 @@ public class PlayerMovement : MonoBehaviour
         {
             speed = -5;
             transform.Translate(Time.deltaTime * speed * Vector3.forward);
+        }
+
+        if(Keyboard.current.spaceKey.isPressed){
+            transform.Translate(Vector3.up * Time.deltaTime * power);
         }
     }
 }
