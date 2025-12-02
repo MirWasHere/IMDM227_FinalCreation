@@ -22,6 +22,6 @@ public class CollectiblesManager : MonoBehaviour
     public void AddCollectible()
     {
         collectiblesCount++;
-        Debug.Log("Fruit Collected: " + collectiblesCount);
+        Debug.Log("Collected: " + collectiblesCount);
     }
 }
