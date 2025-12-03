@@ -13,12 +13,6 @@ public class PlaySound : MonoBehaviour
         audSource = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     // When the object is collided with
     private void OnTriggerEnter(Collider other)
     {
