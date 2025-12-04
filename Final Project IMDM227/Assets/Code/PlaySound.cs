@@ -16,8 +16,8 @@ public class PlaySound : MonoBehaviour
     // When the object is collided with
     private void OnTriggerEnter(Collider other)
     {
-        audSource.Play(0);
+        audSource.Play();
         Debug.Log("Playing note...");
-        gameObj.SetActive(false);
+        // gameObj.SetActive(false);
     }
 }
