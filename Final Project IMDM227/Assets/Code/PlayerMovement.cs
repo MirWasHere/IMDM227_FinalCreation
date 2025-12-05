@@ -4,8 +4,6 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     Rigidbody rb;
-    // Array of notes; will be shared with play sound
-    public AudioClip[] clips;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
