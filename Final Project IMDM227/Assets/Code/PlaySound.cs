@@ -6,8 +6,6 @@ public class PlaySound : MonoBehaviour
     // AudioSource to play note from
     AudioSource audSource;
 
-    // IEnumerator to time note
-    private IEnumerator coroutine;
 
     // Array of notes
     public AudioClip[] clips;
@@ -20,16 +18,15 @@ public class PlaySound : MonoBehaviour
     {
         // Getting audio source
         audSource = GetComponent<AudioSource>();
-        // // intializing coroutine
-        // coroutine = WaitForNote(1.6f);
+        
     }
 
     // When the object is collided with
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Collectible")
-        {
-        }
+        // if(other.tag == "Collectible")
+        // {
+        // }
 
         // Getting next note from array
         audSource.clip = clips[index];
@@ -37,9 +34,6 @@ public class PlaySound : MonoBehaviour
         // Play note...
         audSource.Play();
         Debug.Log("Playing note...");
-
-        // // Waiting for sound to finish before playing sound
-        // StartCoroutine(coroutine);
 
         // Increment index
         index ++;
@@ -50,15 +44,4 @@ public class PlaySound : MonoBehaviour
         }
         
     }
-
-
-    // Necessary if PlaySound is attached to collectibles, otherwise unecessary
-    // // Creating a coroutine to pause code while note plays
-    // IEnumerator WaitForNote(float waitTime)
-    // {
-    //     // Pausing for input seconds
-    //     yield return new WaitForSeconds(waitTime);
-
-    //     Debug.Log("Finished waiting");
-    // }
 }
