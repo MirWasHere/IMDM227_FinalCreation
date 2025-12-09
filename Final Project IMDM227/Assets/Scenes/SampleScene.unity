@@ -2050,11 +2050,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayJingleBells
   clips:
-  - {fileID: 8300000, guid: 6f2662c00eacd3d45a7031e7ff901c2e, type: 3}
-  - {fileID: 8300000, guid: 2d2c1d0029a08df4c8de7c06a99d7fbc, type: 3}
-  - {fileID: 8300000, guid: e10a0b0d1aacdf146aa9ba25769f2a0e, type: 3}
-  - {fileID: 8300000, guid: 2ac1850c9866f7348a0c8a79e0c26a98, type: 3}
-  - {fileID: 8300000, guid: 7472a2fa5526e2949a264e517335901e, type: 3}
+  - {fileID: 8300000, guid: 9218f4e337423fd4191b87b780d36672, type: 3}
+  - {fileID: 8300000, guid: 3a816802c68453b4d8cb103d4ef8409f, type: 3}
+  - {fileID: 8300000, guid: 64ec4961c1cf6e84a9cd22fbd4d668dc, type: 3}
+  - {fileID: 8300000, guid: 74d0a31d11e15f447b57aa9b2c8ae26e, type: 3}
+  - {fileID: 8300000, guid: b738587b9d030694a830960ae21a935c, type: 3}
 --- !u!82 &1445802268
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2066,7 +2066,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: e10a0b0d1aacdf146aa9ba25769f2a0e, type: 3}
+  m_Resource: {fileID: 8300000, guid: 9218f4e337423fd4191b87b780d36672, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2334,7 +2334,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 9218f4e337423fd4191b87b780d36672, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2433,11 +2433,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlaySound
   clips:
-  - {fileID: 8300000, guid: 6f2662c00eacd3d45a7031e7ff901c2e, type: 3}
-  - {fileID: 8300000, guid: 2d2c1d0029a08df4c8de7c06a99d7fbc, type: 3}
-  - {fileID: 8300000, guid: e10a0b0d1aacdf146aa9ba25769f2a0e, type: 3}
-  - {fileID: 8300000, guid: 2ac1850c9866f7348a0c8a79e0c26a98, type: 3}
-  - {fileID: 8300000, guid: 7472a2fa5526e2949a264e517335901e, type: 3}
+  - {fileID: 8300000, guid: 9218f4e337423fd4191b87b780d36672, type: 3}
+  - {fileID: 8300000, guid: 3a816802c68453b4d8cb103d4ef8409f, type: 3}
+  - {fileID: 8300000, guid: 64ec4961c1cf6e84a9cd22fbd4d668dc, type: 3}
+  - {fileID: 8300000, guid: 74d0a31d11e15f447b57aa9b2c8ae26e, type: 3}
+  - {fileID: 8300000, guid: b738587b9d030694a830960ae21a935c, type: 3}
 --- !u!114 &1536274828
 MonoBehaviour:
   m_ObjectHideFlags: 0

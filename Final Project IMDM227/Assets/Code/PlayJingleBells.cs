@@ -47,7 +47,7 @@ public class PlayJingleBells : MonoBehaviour
             {
                 // Play note...
                 audSource.Play();
-                Debug.Log("note played: " + audSource.clip);                
+                Debug.Log("note played: " + audSource.clip);
                 // Let it play out
                 StartCoroutine(coroutine);
                 // Stop note to be played again
