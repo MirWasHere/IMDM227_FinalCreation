@@ -29,23 +29,24 @@ public class PlaySound : MonoBehaviour
     {
         if(other.tag == "Collectible")
         {
-            // Getting next note from array
-            audSource.clip = clips[index];
-            Debug.Log("note played: " + audSource.clip);
-            // Play note...
-            audSource.Play();
-            Debug.Log("Playing note...");
+        }
 
-            // // Waiting for sound to finish before playing sound
-            // StartCoroutine(coroutine);
+        // Getting next note from array
+        audSource.clip = clips[index];
+        Debug.Log("note played: " + audSource.clip);
+        // Play note...
+        audSource.Play();
+        Debug.Log("Playing note...");
 
-            // Increment index
-            index ++;
-            // Just in case more collectibles are available than in array
-            if(index >= clips.Length)
-            {
-                index = 0;
-            }
+        // // Waiting for sound to finish before playing sound
+        // StartCoroutine(coroutine);
+
+        // Increment index
+        index ++;
+        // Just in case more collectibles are available than in array
+        if(index >= clips.Length)
+        {
+            index = 0;
         }
         
     }
