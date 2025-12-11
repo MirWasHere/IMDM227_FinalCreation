@@ -26,8 +26,8 @@ public class PlayJingleBells : MonoBehaviour
     {
         // Getting audio source
         audSource = GetComponent<AudioSource>();
-        // One note is about 0.66... seconds long at 90 BPM
-        coroutine = WaitForNote(0.66f);
+        // One note is about 0.66 seconds long at 90 BPM
+        coroutine = WaitForNote(1f);
         
         // Playing Song
         PlaySong();
