@@ -38,6 +38,8 @@ public class PlayJingleBells : MonoBehaviour
     {
         // First & Second meeasure: E E E_ 
         audSource.clip = clips[2];
+        // Play note...
+        audSource.Play();
 
         // Repeated measure...
         for(int i = 0; i < 2; i ++)
@@ -45,8 +47,7 @@ public class PlayJingleBells : MonoBehaviour
             // Repeated notes...
             for(int j = 0; j < 2; j ++)
             {
-                // Play note...
-                audSource.Play();
+                
                 Debug.Log("note played: " + audSource.clip);
                 // Let it play out
                 StartCoroutine(coroutine);
