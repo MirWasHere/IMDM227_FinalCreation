@@ -24,10 +24,6 @@ public class PlaySound : MonoBehaviour
     // When the object is collided with
     private void OnTriggerEnter(Collider other)
     {
-        // if(other.tag == "Collectible")
-        // {
-        // }
-
         // Getting next note from array
         audSource.clip = clips[index];
         Debug.Log("note played: " + audSource.clip);
