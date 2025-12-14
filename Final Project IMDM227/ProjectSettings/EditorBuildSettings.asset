@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/MainMenu.unity
+    guid: f184413a82f567e41bf71bc4957c1b3b
+  - enabled: 1
+    path: Assets/Scenes/MusicNoteGame.unity
+    guid: 10fd22d7317094342a3677f23cc3179c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
