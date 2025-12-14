@@ -1,23 +1,43 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlaySound : MonoBehaviour
 {
+    // AudioSource to play note from
     AudioSource audSource;
-    AudioClip clip;
 
-    public GameObject gameObj;
+
+    // Array of notes
+    public AudioClip[] clips;
+
+    // Tracks index, will be the same as collectible count (minus 1)
+    int index = 0;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Debug.Log("Sound!");
+        // Getting audio source
         audSource = GetComponent<AudioSource>();
+        
     }
 
     // When the object is collided with
     private void OnTriggerEnter(Collider other)
     {
-        audSource.Play(0);
+        // Getting next note from array
+        audSource.clip = clips[index];
+        Debug.Log("note played: " + audSource.clip);
+        // Play note...
+        audSource.Play();
         Debug.Log("Playing note...");
-        gameObj.SetActive(false);
+
+        // Increment index
+        index ++;
+        // Just in case more collectibles are available than in array
+        if(index >= clips.Length)
+        {
+            index = 0;
+        }
+        
     }
 }
