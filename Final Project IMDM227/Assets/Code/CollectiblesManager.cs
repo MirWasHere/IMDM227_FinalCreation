@@ -27,7 +27,7 @@ public class CollectiblesManager : MonoBehaviour
 
         if(collectiblesCount >= 5)
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("EndVideo");
         }
     }
 }
