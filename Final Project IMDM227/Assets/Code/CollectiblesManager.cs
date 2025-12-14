@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CollectiblesManager : MonoBehaviour
 {
@@ -23,5 +24,10 @@ public class CollectiblesManager : MonoBehaviour
     {
         collectiblesCount++;
         Debug.Log("Collected: " + collectiblesCount);
+
+        if(collectiblesCount >= 5)
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
     }
 }
