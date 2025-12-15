@@ -466,37 +466,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1501624878150026706, guid: 8bd4feae51374ff44b58958bdcb96703, type: 3}
---- !u!1 &62715529
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 62715530}
-  m_Layer: 0
-  m_Name: SpawnPoint5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &62715530
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 62715529}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.29, y: 0.17, z: 1.14}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &74284886
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12825,7 +12794,7 @@ Transform:
   m_GameObject: {fileID: 1536159778}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.19, y: -0.288, z: 2.58}
+  m_LocalPosition: {x: 2.19, y: -0.37, z: 2.58}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15506,7 +15475,6 @@ MonoBehaviour:
   - {fileID: 1536159779}
   - {fileID: 656635763}
   - {fileID: 1743583972}
-  - {fileID: 62715530}
 --- !u!4 &1989943769
 Transform:
   m_ObjectHideFlags: 0
@@ -16359,7 +16327,6 @@ SceneRoots:
   - {fileID: 736928535}
   - {fileID: 1989943769}
   - {fileID: 1990714883}
-  - {fileID: 62715530}
   - {fileID: 1536159779}
   - {fileID: 656635763}
   - {fileID: 1743583972}
