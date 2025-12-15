@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Collectible : MonoBehaviour
 {
-    public int points = 10;
+    public int points = 5;
 
     void OnTriggerEnter(Collider other)
     {

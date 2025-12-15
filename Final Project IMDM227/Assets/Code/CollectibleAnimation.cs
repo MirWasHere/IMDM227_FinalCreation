@@ -2,13 +2,19 @@ using UnityEngine;
 
 public class CollectibleAnimation : MonoBehaviour
 {
-    // Rotation Rate
-    float rotationRate = 20f;
+    [SerializeField] float bobHeight = 0.25f;
+    [SerializeField] float bobSpeed = 2f;
 
-    // Update is called once per frame
+    Vector3 startPos;
+
+    void Start()
+    {
+        startPos = transform.position;
+    }
+
     void Update()
     {
-        // Changing rotation
-        transform.Rotate(0, rotationRate * Time.deltaTime, 0);
+        float newY = startPos.y + Mathf.Sin(Time.time * bobSpeed) * bobHeight;
+        transform.position = new Vector3(startPos.x, newY, startPos.z);
     }
 }

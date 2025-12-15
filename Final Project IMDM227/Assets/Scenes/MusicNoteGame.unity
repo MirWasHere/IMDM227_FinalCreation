@@ -1408,6 +1408,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfd839fa64b9a2249ac975d61605200c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectibleAnimation
+  bobHeight: 0.1
+  bobSpeed: 4
 --- !u!64 &239235853
 MeshCollider:
   m_ObjectHideFlags: 0
