@@ -9413,6 +9413,7 @@ GameObject:
   - component: {fileID: 808063193}
   - component: {fileID: 808063192}
   - component: {fileID: 808063191}
+  - component: {fileID: 808063194}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -9538,6 +9539,18 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &808063194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808063189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5b0b4aafdcc3934b9298ea369db5b47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Tipper
 --- !u!1 &809607866 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4810330673336176450, guid: 8bd4feae51374ff44b58958bdcb96703, type: 3}
