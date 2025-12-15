@@ -560,7 +560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33cba4f6a54eac34a86e5371e0dba990, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChangeVideo
-  clip: {fileID: 32900000, guid: ab998903fd9675e47a9643888878fb8d, type: 3}
+  clip: {fileID: 32900000, guid: 7fb07b970d8f01745b34927ea2fba65b, type: 3}
   sceneName: EndVideo
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
