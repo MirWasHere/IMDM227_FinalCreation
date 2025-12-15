@@ -338,7 +338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChangeVideo
   clip: {fileID: 32900000, guid: eae9f735f10268e419b7a14ffe1a0392, type: 3}
-  sceneName: MusicNoteGame
+  sceneName: MainMenu
 --- !u!1 &1699301560
 GameObject:
   m_ObjectHideFlags: 0
